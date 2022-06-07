@@ -36,6 +36,7 @@ const Slider = () => {
             style={{
               backgroundColor: item.bg,
             }}
+            key={item.id}
           >
             <div className="image_container">
               <img src={item.img} alt="" />
