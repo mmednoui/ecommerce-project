@@ -1,10 +1,14 @@
 import "./App.css";
-import Home from "./pages/Home";
+import HomePage from "./pages/HomePage";
+import ProductPage from "./pages/ProductPage";
+import CategoryPage from "./pages/CategoryPage";
+import UserPage from "./pages/UserPage";
+import CartPage from "./pages/CartPage";
 
 function App() {
   return (
     <div className="App">
-      <Home />
+      <HomePage />
     </div>
   );
 }

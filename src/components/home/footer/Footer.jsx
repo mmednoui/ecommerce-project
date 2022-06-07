@@ -61,7 +61,7 @@ const Footer = () => {
         <div className="footer_right_contact">
           <MailOutline style={{ marginRight: "0.6rem" }} /> contact@lama.de
         </div>
-        <img src="https://i.ibb.co/Qfvn4z6/payment.png" />
+        <img src="https://i.ibb.co/Qfvn4z6/payment.png" alt="payment" />
       </div>
     </div>
   );

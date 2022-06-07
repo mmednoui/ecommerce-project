@@ -35,3 +35,13 @@
   color: white;
   cursor: pointer;
 }
+/*-------------------------- small devices -------------------*/
+
+@media screen and (max-width: 600px) {
+  .newsletter p {
+    text-align: center;
+  }
+  .newsletter_input {
+    width: 80%;
+  }
+}

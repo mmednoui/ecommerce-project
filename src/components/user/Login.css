@@ -1,0 +1,56 @@
+.login {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("http://127.0.0.1:8887/ecommerce-project/src/components/assets/bg.png")
+      center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login_wrapper {
+  width: 25%;
+  padding: 1.3rem;
+  background-color: white;
+}
+.login h1 {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+.login form {
+  display: flex;
+  flex-direction: column;
+}
+.login input {
+  flex: 1;
+  min-width: 40%;
+  margin: 0.6rem 0;
+  padding: 0.6rem;
+}
+
+.login button {
+  width: 40%;
+  border: none;
+  padding: 1rem 1.3rem;
+  background-color: teal;
+  color: white;
+  cursor: pointer;
+  margin-bottom: 0.6rem;
+}
+.login a {
+  margin: 0.3rem 0px;
+  font-size: 0.75rem;
+  text-decoration: underline;
+  cursor: pointer;
+}
+/*-------------------------- small devices -------------------*/
+
+@media screen and (max-width: 600px) {
+  .login_wrapper {
+    width: 75%;
+  }
+}

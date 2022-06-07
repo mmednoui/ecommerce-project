@@ -1,0 +1,26 @@
+h1 {
+  margin: 1.3rem;
+}
+.filter_container {
+  display: flex;
+  justify-content: space-between;
+}
+.filter {
+  margin: 1.3rem;
+}
+.filter_text {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+select {
+  padding: 0.6rem;
+  margin: 0 1.3rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  border: 2px solid teal;
+  border-radius: 6px;
+}
+option {
+  font-size: 0.9rem;
+  font-weight: 500;
+}

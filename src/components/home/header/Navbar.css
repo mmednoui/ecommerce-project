@@ -1,5 +1,3 @@
-.navbar {
-}
 .navbar_wrapper {
   display: flex;
   justify-content: space-between;
@@ -45,4 +43,29 @@
   margin-left: 1.5rem;
   font-size: 1rem;
   cursor: pointer;
+}
+
+/*-------------------------- small devices -------------------*/
+
+@media screen and (max-width: 600px) {
+  .navbar_wrapper {
+    padding: 10px 0px;
+  }
+  .navbar_wrapper_left span {
+    display: none;
+  }
+  .navbar_wrapper_left div input {
+    width: 50px;
+  }
+  .navbar_wrapper_center h1 {
+    font-size: 24px;
+  }
+  .navbar_wrapper_right {
+    flex: 2;
+    justify-content: center;
+  }
+  .menuItem {
+    font-size: 12px;
+    margin-left: 10px;
+  }
 }

@@ -1,0 +1,110 @@
+.cart {
+  padding: 20px;
+}
+.cart h1 {
+  font-weight: 300;
+  text-align: center;
+}
+
+/*=================================== TOP CART ========================*/
+.cart_top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+.cart_top button {
+  padding: 10px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.cart_top_texts span {
+  text-decoration: underline;
+  cursor: pointer;
+  margin: 0px 10px;
+}
+/*=================================== BOTTOM CART ========================*/
+
+.cart_bottom {
+  display: flex;
+  justify-content: space-between;
+}
+.bottom_info {
+  flex: 3;
+}
+/*---------------------------Product details---------------------------*/
+
+.productItem {
+  display: flex;
+  justify-content: space-between;
+}
+.product_detail {
+  flex: 2;
+  display: flex;
+}
+.product_detail_details {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.product_color {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+.product_detail img {
+  width: 12.5rem;
+}
+
+/*---------------------------PRICE details---------------------------*/
+.price_detail {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.product_amount_container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.product_amount {
+  font-size: 24px;
+  margin: 5px;
+}
+.product_price {
+  font-size: 30px;
+  font-weight: 200;
+}
+hr {
+  background-color: #eee;
+  border: none;
+  height: 1px;
+}
+/*---------------------------------------------Summary-----------------------------------*/
+
+.summary {
+  flex: 1;
+  border: 0.5px solid lightgray;
+  border-radius: 10px;
+  padding: 20px;
+  height: 60vh;
+}
+
+.summary_item {
+  margin: 30px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.summary button {
+  width: 100%;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  font-weight: 600;
+}
+.summary_item_price {
+}

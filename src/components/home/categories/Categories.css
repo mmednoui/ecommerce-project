@@ -1,0 +1,12 @@
+.categories {
+  display: flex;
+  padding: 1.2rem;
+  justify-content: space-between;
+}
+/*-------------------------- small devices -------------------*/
+
+@media screen and (max-width: 600px) {
+  .categories {
+    flex-direction: column;
+  }
+}

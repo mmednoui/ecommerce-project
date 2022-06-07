@@ -19,8 +19,8 @@ const Navbar = () => {
           <h1>LAMA.</h1>
         </div>
         <div className="navbar_wrapper_right">
-          <div>Register</div>
-          <div>Sign IN</div>
+          <div className="menuItem">Register</div>
+          <div className="menuItem">Sign IN</div>
           <div>
             <Badge badgeContent={4} color="primary">
               <ShoppingCartOutlinedIcon color="action" />

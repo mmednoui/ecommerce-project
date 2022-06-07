@@ -1,5 +1,6 @@
 .footer {
   display: flex;
+  padding-top: 1rem;
 }
 
 /*==========================FOOTER LEFT SIDE================================*/
@@ -10,6 +11,7 @@
   padding: 1.3rem;
 }
 .footer_left h1 {
+  margin: 0;
 }
 .footer_left p {
   margin: 2rem 0;
@@ -55,7 +57,7 @@
   padding: 1.3rem;
 }
 .footer_right_contact {
-  margin-bottom: 1.3rem;
+  margin-bottom: 1.5rem;
   display: flex;
   align-items: center;
 }
@@ -64,4 +66,17 @@
 }
 .footer_right img {
   width: 50%;
+}
+/*-------------------------- small devices -------------------*/
+
+@media screen and (max-width: 600px) {
+  .footer_center {
+    display: none;
+  }
+  .footer {
+    flex-direction: column;
+  }
+  .footer_right {
+    background-color: #fff8f8;
+  }
 }
