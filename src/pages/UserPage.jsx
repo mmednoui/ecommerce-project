@@ -5,7 +5,7 @@ import Login from "./../components/user/Login";
 const UserPage = () => {
   return (
     <div>
-      <Login />
+      <Register />
     </div>
   );
 };

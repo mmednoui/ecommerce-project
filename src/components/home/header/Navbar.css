@@ -58,14 +58,14 @@
     width: 50px;
   }
   .navbar_wrapper_center h1 {
-    font-size: 24px;
+    font-size: 18px;
   }
   .navbar_wrapper_right {
     flex: 2;
-    justify-content: center;
+    justify-content: left;
   }
   .menuItem {
-    font-size: 12px;
-    margin-left: 10px;
+    font-size: 12px !important;
+    margin: 0 5px !important;
   }
 }

@@ -86,3 +86,27 @@
 .add_container button:hover {
   background-color: aliceblue;
 }
+
+/*-------------------------- small devices -------------------*/
+
+@media screen and (max-width: 600px) {
+  .add_container {
+    width: 100%;
+  }
+  .filter_container {
+    width: 100%;
+  }
+  .productDetail_image img {
+    height: 40vh;
+  }
+  .productDetail_info {
+    padding: 0.6rem;
+  }
+  .productDetail {
+    padding: 0.6rem;
+    flex-direction: column;
+  }
+  .filter_color {
+    margin: 5px 0;
+  }
+}

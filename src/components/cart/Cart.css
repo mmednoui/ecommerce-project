@@ -108,3 +108,26 @@ hr {
 }
 .summary_item_price {
 }
+
+/*-------------------------- small devices -------------------*/
+
+@media screen and (max-width: 600px) {
+  .cart {
+    padding: 0.6rem;
+  }
+  .cart_top_texts {
+    display: none;
+  }
+  .cart_bottom {
+    flex-direction: column;
+  }
+  .productItem {
+    flex-direction: column;
+  }
+  .product_amount {
+    margin: 0.3rem 1rem;
+  }
+  .product_price {
+    margin-bottom: 1.3rem;
+  }
+}

@@ -89,3 +89,20 @@
 .two {
   transform: translateX(-198vw);
 }
+
+/*-------------------------- small devices -------------------*/
+
+@media screen and (max-width: 600px) {
+  .image_container {
+    height: 10%;
+  }
+  .slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .info_container h1 {
+    font-size: 3rem;
+  }
+}

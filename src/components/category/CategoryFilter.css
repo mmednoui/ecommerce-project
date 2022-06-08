@@ -24,3 +24,19 @@ option {
   font-size: 0.9rem;
   font-weight: 500;
 }
+
+/*-------------------------- small devices -------------------*/
+
+@media screen and (max-width: 600px) {
+  .filter {
+    width: 0 1.3rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .filter_text {
+    margin-right: 0;
+  }
+  .filter_container select {
+    margin: 0.6rem 0;
+  }
+}
